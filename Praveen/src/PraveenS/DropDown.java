@@ -21,6 +21,8 @@ public class DropDown {
 			String dropdownValues = dropdown.get(i).getText();
 			if(dropdownValues.equalsIgnoreCase("Aug")) {
 				dropdown.get(i).click();
+				
+				System.out.println("Pravee");
 			}
 		}
 	}
